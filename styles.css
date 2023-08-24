@@ -1,0 +1,49 @@
+body{
+  font-family: Tahoma;
+  background: url(https://images.unsplash.com/photo-1486272812091-a9bf3c6376c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80) no-repeat center center ;
+  background-size:cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  max-width: 500px;
+}
+div{
+  background-color: rgba(238,177,102,0.75);
+  padding:35px;
+}
+fieldset{
+  border: none;
+  border-bottom:3px solid ;
+}
+.identity input ,select,textarea{
+    display:block;
+     width: 100%;
+  margin: 5 0.5em 5 0;
+ 
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+h1 , #description{
+  text-align:center;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+fieldset p {
+  display: inline-block; /* Make paragraphs inline blocks */
+  vertical-align: middle; /* Align paragraphs vertically with icons */
+  margin: 5px; /* Remove default margins to prevent extra spacing */
+}
+.icon {
+  vertical-align: middle; /* Align icons vertically with text */
+  margin-right: 5px; /* Add some spacing between icons and text */
+}
+
+#submit{
+  display: block;
+  width: 60%;
+  margin:10px auto;
+  border:solid black;
+}

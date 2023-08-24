@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <title>RPG Survey</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+     <div id="survey">
+      <h1 id="title">RPG (Role Playing Game) survey</h1>
+      <p id="description">Thank you for taking the time to help us with this survey</p>
+
+      <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+      <fieldset class="identity"><p>Identity:</p><img class="icon" src="https://th.bing.com/th/id/R.4bc82cdc45cfd7b87a94ece543d520ee?rik=QQqalWQgNfuiuw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_572158.png&ehk=qZZ1PtKiMFYujbq0xYslIebbTLd3GnabENB9YAFF9Xo%3d&risl=&pid=ImgRaw&r=0" alt="id card icon" width="60" height="30"><label id="name-label" for="name">
+      Name <input id="name" type="text" placeholder="Enter your name" required />
+     </label>
+    <label id="email-label" for="email">Email 
+    <input id="email" type="email" required placeholder="Enter your email"/>
+    </label>
+  <label id="number-label" for="number" > Number (optional)<input id="number" type="number" pattern="[0-9]*" min="0" max="99999999" placeholder="Enter your number"/>
+    </label>
+
+    </fieldset>
+    <fieldset>
+      <label>How many RPGs have you played in the last 5 years?
+      <select id="dropdown">
+        <option id="">please select one</option>
+        <option id="1">0 - 5</option>
+        <option id="2">5 - 10</option>
+        <option id="3">10 - 20</option>
+        <option id="4"> more than 20 </option>
+      </select>
+      </label>
+      <p>How often do you play video games (in general)?</p> <img class="icon" src="https://cdn.pixabay.com/photo/2016/08/31/11/57/watch-1633263_1280.png" alt="hand clock icon" width="30" height="40">
+      <label for="playrate-never" ><input id="playrate-never" type="radio" name="playrate" value="Never"/>Never</label><label for ="playrate-Rarely"><input id="playrate-Rarely" type="radio" name="playrate" value="Rarely"/>Rarely
+      </label><label for="playrate-Occasionally"><input id="playrate-Occasionally" type="radio" name="playrate" value="Occasionally"/>Occasionally</label><label for="playrate-Regularly"><input id="playrate-Regularly" type="radio" name="playrate" value="Regularly"/>Regularly</label>
+    </fieldset>
+    <fieldset>
+      <p>Have you played any of the following games?</p><img class="icon" src="https://cdn.pixabay.com/photo/2016/11/15/23/51/controller-1827840_640.png" alt="game controller icon" width="35" height="25">
+      <label for="xenoblade 1"><input type="checkbox" id="xenoblade 1" value="xenoblade 4">Xenoblade 1
+      </label>
+       <label for="xenoblade 2"><input type="checkbox" id="xenoblade 2" value="xenoblade 2"/>Xenoblade 2</label>
+       <label for="xenoblade 3"><input type="checkbox" id="xenoblade 3" value="xenoblade 3"/>Xenoblade 3</label><label for="trails of the sky"><input type="checkbox" id="trails of the sky" value="trails of the sky"/>Trails of the sky</label><label for="trails of steel 1-3"><input type="checkbox" id="trails of steel 1-3" value="trails of steel 1-3"/>Trails of steel 1-3</label><label for="Pokemon rejuvenation"><input type="checkbox" id="Pokemon rejuvenation" value="Pokemon rejuvenation"/>Pokemon rejuvenation</label>
+      </fieldset>
+      <fieldset>
+        <label for="favorite-game">What is your favorite game? Why?<textarea name"favorite-game" id="favorite-game" rows="3" cols="30" placeholder="My favorite game is Tales of Symphonia because..." ></textarea></label>
+      </fieldset>
+    <input id="submit" type="submit" value="Submit"/>
+      </form>
+
+  </body>
+  </div>
+</html>
